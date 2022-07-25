@@ -16,7 +16,8 @@
       Pose --> C;
       Exp --> C;
 
-      C --> F --> ~LM;
+      C --> F;
+      F --> LM;
       I --> LM;
 
       C --> Flame;
